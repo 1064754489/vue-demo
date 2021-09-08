@@ -1,10 +1,13 @@
 <template>
   <div class="content">
     <h1>首页</h1>
-    <span v-if="show" class="desc">描述:</span>
+    <span
+      v-if="show"
+      class="desc"
+    >描述:</span>
     <span>{{ desc }}</span>
     <div>时间： {{ date }}</div>
-    <img src="../assets/logo.png" />
+    <img src="../assets/logo.png">
   </div>
 </template>
 
@@ -16,42 +19,43 @@ export default {
   props: {
     msg: {
       type: String,
-      default: '',
+      default: ''
     },
     type: {
       type: String,
-      default: '',
-    },
+      default: ''
+    }
   },
   data() {
     return {
       desc: 'tests',
       date: '',
-      show: true,
-    };
+      show: true
+    }
   },
   mounted() {
-    this.initDate();
+    this.initDate()
 
-    this.test(2, 4);
+    this.test(2, 4)
   },
   methods: {
     initDate() {
-      console.log('get time');
+      console.log('get time')
 
-      this.date = new Date();
+      this.date = new Date()
     },
     test(a, b) {
-      if (a == b) console.log('111');
+      if (a == b) console.log('111')
 
-      a === b ? a++ : b++;
+      a === b ? a++ : b++
     },
     test2() {
-      const a = 1;
-      return b;
-    },
-  },
-};
+      const a = 1
+
+      return b + c
+    }
+  }
+}
 </script>
 
 <style scoped>
