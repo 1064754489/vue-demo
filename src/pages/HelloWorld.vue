@@ -9,7 +9,7 @@
 </template>
 
 <script>
-// import _ls from './common/_ls'
+import _ls from './common/_ls'
 
 export default {
   name: 'HelloWorld',

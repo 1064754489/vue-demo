@@ -5,7 +5,7 @@
 import { Vue, Component } from 'vue-property-decorator'
 @Component
 export default class TestTs extends Vue {
-  message: string = 'hello ts!';
+  message: string = 'hello ts!'
   mounted() {
     setTimeout(() => {
       this.message = 'hello typeScript!'

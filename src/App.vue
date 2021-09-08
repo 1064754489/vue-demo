@@ -1,16 +1,12 @@
 <template>
   <div id="app">
-    <img
-      alt="Vue logo"
-      src="./assets/logo.png"
-    >
+    <img alt="Vue logo"
+src="./assets/logo.png"
+/>
     <button @click="changeTs">
-      ts页面
-    </button>
-    <HelloWorld
-      v-if="!isTs"
-      msg="Welcome to Your Vue.js App"
-    />
+ts页面
+</button>
+    <HelloWorld v-if="!isTs" msg="Welcome to Your Vue.js App" />
     <hello-world-2 v-else />
   </div>
 </template>

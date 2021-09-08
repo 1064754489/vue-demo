@@ -3801,10 +3801,10 @@ eslint-plugin-node@^11.1.0:
     resolve "^1.10.1"
     semver "^6.1.0"
 
-eslint-plugin-prettier@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.nlark.com/eslint-plugin-prettier/download/eslint-plugin-prettier-4.0.0.tgz#8b99d1e4b8b24a762472b4567992023619cb98e0"
-  integrity sha1-i5nR5LiySnYkcrRWeZICNhnLmOA=
+eslint-plugin-prettier@3.4.0:
+  version "3.4.0"
+  resolved "https://registry.nlark.com/eslint-plugin-prettier/download/eslint-plugin-prettier-3.4.0.tgz#cdbad3bf1dbd2b177e9825737fe63b476a08f0c7"
+  integrity sha1-zbrTvx29Kxd+mCVzf+Y7R2oI8Mc=
   dependencies:
     prettier-linter-helpers "^1.0.0"
 
