@@ -43,6 +43,7 @@ export default {
     },
     test(a, b) {
       if (a == b) console.log('111');
+
       a === b ? a++ : b++;
     },
     test2() {
