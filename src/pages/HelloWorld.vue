@@ -52,7 +52,7 @@ export default {
     test2() {
       const a = 1
 
-      return b + c
+      return b + c + d
     }
   }
 }
