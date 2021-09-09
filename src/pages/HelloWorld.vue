@@ -49,7 +49,7 @@ export default {
     },
     test2() {
       const a = 1
-      return b + c + d + f
+      return b + c + d +
     },
     test3() {
       this.arr = [1, 2, 3, 4]
