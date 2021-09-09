@@ -9,7 +9,7 @@
 </template>
 
 <script>
-import _ls from './common/_ls'
+// import _ls from './common/_ls'
 
 export default {
   name: 'HelloWorld',
@@ -42,14 +42,13 @@ export default {
       this.date = new Date()
     },
     test(a, b) {
-      if (a == b) console.log('111')
+      if (a === b) console.log('111')
 
       a === b ? a++ : b++
     },
     test2() {
       const a = 1
-
-      return b + c + d
+      // return b + c + d
     },
     test3() {
       this.arr = [1, 2, 3, 4]

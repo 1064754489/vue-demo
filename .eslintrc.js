@@ -8,9 +8,8 @@ module.exports = {
     'plugin:vue/recommended', // 检测vue
     'standard', //eslint检测规则-standard
     'plugin:prettier/recommended',
-    // 'prettier',
+    // "prettier",
     // 'prettier', // 禁用 ESLint 中与 Prettier 冲突的规则
-    // "prettier/@typescript-eslint" // 禁用插件中与 Prettier 冲突的规则
     // 'plugin:prettier/recommended', // 它包含了 extends: ['prettier'], plugins: ['prettier']
   ],
   plugins: ['prettier'],
@@ -48,4 +47,4 @@ module.exports = {
     'new-cap': 0,
     'no-debugger': process.env.NODE_ENV === 'production' ? 2 : 0,
   },
-}
+};

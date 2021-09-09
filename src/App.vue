@@ -1,11 +1,7 @@
 <template>
   <div id="app">
-    <img alt="Vue logo"
-src="./assets/logo.png"
-/>
-    <button @click="changeTs">
-ts页面
-</button>
+    <img alt="Vue logo" src="./assets/logo.png" />
+    <button @click="changeTs">ts页面</button>
     <HelloWorld v-if="!isTs" msg="Welcome to Your Vue.js App" />
     <hello-world-2 v-else />
   </div>
@@ -19,18 +15,18 @@ export default {
   name: 'App',
   components: {
     HelloWorld,
-    HelloWorld2
+    HelloWorld2,
   },
   data() {
     return {
-      isTs: false
+      isTs: false,
     }
   },
   methods: {
     changeTs() {
       this.isTs = !this.isTs
-    }
-  }
+    },
+  },
 }
 </script>
 

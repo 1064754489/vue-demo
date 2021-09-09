@@ -8,7 +8,7 @@ const _ls = {
   },
   clear: function () {
     localStorage.clear()
-  }
+  },
 }
 
 export default _ls
