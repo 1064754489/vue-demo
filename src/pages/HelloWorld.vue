@@ -29,6 +29,7 @@ export default {
       date: '',
       show: true,
       arr: [],
+      object: { a: 1, b: 2, c: 3 },
     }
   },
   mounted() {
@@ -60,5 +61,6 @@ export default {
 <style scoped>
 .desc {
   color: aqua;
+  font-size: 15px;
 }
 </style>
