@@ -6,16 +6,18 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "commit": "cz"
+    "commit": "cz",
+    "precommint": "lint-staged"
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged"
+      "pre-commit": "npm run precommit"
     }
   },
   "lint-staged": {
     "src/**/*.{js,vue}": [
-      "vue-cli-service lint",
+      "prettier --write",
+      "eslint --cache --fix",
       "git add"
     ]
   },
