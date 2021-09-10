@@ -2,7 +2,7 @@
   <div class="content">
     <h1>首页</h1>
     <span v-if="show" class="desc">描述:</span>
-    <span>{{ desc }}</span>
+    <span>{ desc }}</span>
     <div>时间： {{ date }}</div>
     <img src="../assets/logo.png" />
   </div>
@@ -49,7 +49,7 @@ export default {
     },
     test2() {
       const a = 1
-      return b + c + d +
+      return b + c + d
     },
     test3() {
       this.arr = [1, 2, 3, 4]
