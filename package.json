@@ -11,14 +11,13 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run lint"
+      "pre-commit": "lint-staged"
     }
   },
   "lint-staged": {
     "src/**/*.{js,vue}": [
       "prettier --write",
-      "eslint --cache --fix",
-      "git add"
+      "eslint --cache --fix"
     ]
   },
   "dependencies": {
