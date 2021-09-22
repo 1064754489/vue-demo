@@ -48,8 +48,9 @@ export default {
       a === b ? a++ : b++
     },
     test2() {
-      const a = 1
-      return b + c + d + js
+      let a = 1
+      console.log(a)
+      // return b + c + d + js
     },
     test3() {
       this.arr = [1, 2, 3, 4]
